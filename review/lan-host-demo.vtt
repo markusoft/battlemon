@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.850
+Battlemon Full: start a user-requested local network game.
+
+00:00:05.850 --> 00:00:12.700
+Choose the game mode, room name, player seats and AI settings.
+
+00:00:12.700 --> 00:00:24.710
+Start Host launches the LAN server and connected-device foreground service.
+
+00:00:24.710 --> 00:00:29.800
+The host shares a QR invitation. A real local WebSocket client joins as LAN Guest.
+
+00:00:29.800 --> 00:00:36.010
+The player seats show LAN Guest connected to the hosted game.
+
+00:00:36.010 --> 00:00:45.110
+The host app is now in the background. The local client remains connected.
+
+00:00:45.110 --> 00:00:51.060
+The ongoing Battlemon LAN host notification identifies the active connection.
+
+00:00:51.060 --> 00:01:00.910
+Tap the notification to return to the same hosted game.
+
+00:01:00.910 --> 00:01:12.630
+The same LAN Guest seat remains connected after returning.
+
+00:01:12.630 --> 00:01:21.560
+Choose Stop hosting in the notification to end the service and disconnect clients.
+
+00:01:21.560 --> 00:01:29.820
+The host has stopped. The connected local client is disconnected and the notification is removed.

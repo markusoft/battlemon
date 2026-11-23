@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102b43">
+  <meta name="description" content="Watch your favorite monsters duke it out in Battlemon, the monster arena board game for Android. Play Monster Showdown free, or unlock four battle modes, more team choices and local multiplayer.">
+  <title>Battlemon — Monster Arena Board Game</title>
+  <link rel="icon" href="assets/logo.png"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="./"><img src="assets/logo.png" width="52" height="52" alt=""><span>Battlemon<small>MONSTER ARENA BOARD GAME</small></span></a>
+    <nav aria-label="Main navigation"><a href="#battle-modes">Battle modes</a><a href="#local-play">Local play</a><a href="#free-full">Free &amp; Full</a><a href="privacy/">Privacy</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero"><div class="wrap hero-grid">
+      <div class="hero-copy"><p class="eyebrow">YOUR TEAM. YOUR TERRITORY. YOUR NEXT MOVE.</p><h1>Your favorite monsters.<br><em>One arena.</em></h1>
+        <p class="lead">Watch your favorite monsters duke it out in one arena. Gather Energy, evolve your team and turn the terrain to your advantage.</p>
+        <div class="actions"><a class="button" href="#battle-modes">Meet your next battle</a><a class="text-link" href="#free-full">Explore Free &amp; Full</a></div>
+        <p class="availability">Android 8.0+ · Preparing for Google Play</p>
+        <div class="monster-lineup" aria-label="Charmander, V-mon and Onion"><img src="assets/fire.webp" width="156" height="156" alt="Charmander"><img src="assets/water.webp" width="156" height="156" alt="V-mon"><img src="assets/grass.webp" width="156" height="156" alt="Onion"></div>
+      </div>
+      <figure class="hero-screen"><div class="orbit" aria-hidden="true"></div><button class="screen-button" data-preview="assets/showdown.webp" data-caption="Monster Showdown · Included in Free · Sample Android game" aria-label="Enlarge Monster Showdown screenshot"><img src="assets/showdown.webp" width="1080" height="1920" alt="Battlemon on Android showing monsters on elemental hexes, Energy cards and bottom navigation" fetchpriority="high"></button><figcaption>Real Android gameplay. Iconic artwork.</figcaption></figure>
+    </div><div class="hero-footer wrap"><span>Make every hex count.</span><span>Offline single player <b>·</b> Four objectives in Full <b>·</b> Local games in Full</span></div></section>
+
+    <section class="wrap section" id="battle-modes" aria-labelledby="modes-title">
+      <div class="section-heading"><div><p class="eyebrow">CHOOSE YOUR OBJECTIVE</p><h2 id="modes-title">Same arena.<br><em>A whole new battle.</em></h2></div><p>Survive the showdown, hunt for points, chase a moving bounty or capture an enemy flag. Each mode gives your team a different reason to move.</p></div>
+      <div class="tabs" role="tablist" aria-label="Battle modes">
+        <button id="tab-showdown" role="tab" aria-selected="true" aria-controls="mode-panel" data-mode="showdown">Monster Showdown<small>Included in Free</small></button>
+        <button id="tab-hunt" role="tab" aria-selected="false" aria-controls="mode-panel" tabindex="-1" data-mode="hunt">Monster Hunt<small>Full Version</small></button>
+        <button id="tab-bounty" role="tab" aria-selected="false" aria-controls="mode-panel" tabindex="-1" data-mode="bounty">Bounty Hunt<small>Full Version</small></button>
+        <button id="tab-flags" role="tab" aria-selected="false" aria-controls="mode-panel" tabindex="-1" data-mode="flags">Capture the Flag<small>Full Version</small></button>
+      </div>
+      <div class="mode-panel" id="mode-panel" role="tabpanel" aria-labelledby="tab-showdown">
+        <div class="mode-copy"><span class="tag" id="mode-access">Included in Free</span><h3 id="mode-name">Last trainer standing.</h3><p id="mode-description">Defeat the other teams. Monsters do not respawn in Monster Showdown, so every decision counts.</p><p class="mode-tip" id="mode-tip">Pick elemental monsters or a team of Neutral monsters in Free.</p><div class="mode-art"><img id="mode-monster" src="assets/fire.webp" width="200" height="200" alt="Fire monster"><img id="mode-token" src="assets/neutral.webp" width="136" height="136" alt="Neutral monster"></div></div>
+        <figure class="mode-screen"><button id="mode-preview" class="screen-button" data-preview="assets/showdown.webp" data-caption="Monster Showdown · Included in Free · Sample Android game" aria-label="Enlarge selected battle mode"><img id="mode-image" src="assets/showdown.webp" width="1080" height="1920" alt="Monster Showdown sample game on Android" loading="lazy"></button><figcaption id="mode-caption">Monster Showdown · Included in Free</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="play-loop"><div class="wrap section"><div class="section-heading"><div><p class="eyebrow">A TABLETOP GAME WITH TEETH</p><h2>Gather. Evolve.<br><em>Make your move.</em></h2></div><p>Your hand and the arena share one screen. Tap your monsters and cards, check the glowing legal moves, then commit to your plan.</p></div>
+      <div class="steps"><article><img src="assets/energy.webp" width="88" height="122" alt="Neutral Energy card" loading="lazy"><h3>Energy is opportunity.</h3><p>Gather from the terrain. Use Neutral Energy to move, and elemental Energy to attack, trade or evolve.</p></article><article><img src="assets/evolved.webp" width="122" height="122" alt="Charizard" loading="lazy"><h3>Grow into a threat.</h3><p>Evolve your team and read the type advantage chart. The monster and the terrain both matter in a battle.</p></article><article><img src="assets/team-neutral.webp" width="122" height="122" alt="Neutral monster" loading="lazy"><h3>Build a different team.</h3><p>Full adds mixed teams and repeated types. “+ neutral” adds Neutral to your choices; it does not add a fourth monster.</p></article></div>
+    </div></section>
+
+    <section class="wrap section lan-grid" id="local-play" aria-labelledby="lan-title">
+      <div><p class="eyebrow">BRING YOUR ARENA ALONG · FULL VERSION</p><h2 id="lan-title">Same Wi-Fi.<br>Friendly rivals.<br><em>Real stakes.</em></h2><p class="lead">Host on an Android phone, share the room’s QR code and let friends take their seats.</p><ol class="lan-steps"><li>Connect your devices to the same Wi-Fi or phone hotspot.</li><li>Choose Host Local Game, set the seats and start hosting.</li><li>Friends choose Join Local Game and scan the host’s invitation.</li></ol><p>The hosting notification lets you return to the table or stop hosting. Hosting continues while the app is in the background.</p><a class="text-link" href="review/">Watch the LAN hosting demonstration</a><p class="fine">LAN is available with Full. Use a trusted local network that allows device-to-device connections. LAN traffic is not encrypted.</p></div>
+      <figure class="lan-screen"><button class="screen-button" data-preview="assets/lan.webp" data-caption="Host Local Game · Full Version · Android setup" aria-label="Enlarge LAN setup screenshot"><img src="assets/lan.webp" width="1080" height="1920" alt="Battlemon Android Host Local Game setup" loading="lazy"></button><figcaption>Set up your table · Full Version</figcaption></figure>
+    </section>
+
+    <section class="editions section" id="free-full" aria-labelledby="editions-title"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">ONE APP. ROOM TO GROW.</p><h2 id="editions-title">Start with Showdown.<br><em>Unlock the arena.</em></h2></div><p>Play free. Choose the one-time Full unlock when you want more ways to battle. Your progress stays in the same app.</p></div>
+      <div class="table-scroll"><table><caption>Battlemon Free and the optional Full unlock</caption><thead><tr><th scope="col">Your arena</th><th scope="col">Free</th><th scope="col">Full unlock</th></tr></thead><tbody>
+        <tr><th scope="row">Offline single player</th><td>Included</td><td>Included</td></tr>
+        <tr><th scope="row">Game modes</th><td>Monster Showdown</td><td>All four modes</td></tr>
+        <tr><th scope="row">Monster selection</th><td>One of each type or Neutral only</td><td>All five options</td></tr>
+        <tr><th scope="row">Artwork</th><td>Iconic</td><td>Iconic &amp; Original</td></tr>
+        <tr><th scope="row">Local multiplayer</th><td>Full Version</td><td>Host &amp; join</td></tr>
+        <tr><th scope="row">Replay library</th><td>Full Version</td><td>Watch, export &amp; delete</td></tr>
+      </tbody></table></div>
+      <p class="fine">Full is a one-time in-app purchase, not a separate app or a subscription. Internet access and Google Play are needed to purchase or restore. Confirmed Full access is kept for offline play. Local saves do not automatically transfer between devices. Public online multiplayer, chat and voice/video calls are not included.</p>
+      <p class="availability">Preparing for Google Play. A store link will appear here when the listing is available.</p>
+    </div></section>
+    <section class="closing wrap"><img src="assets/logo.png" width="100" height="100" alt="Battlemon logo" loading="lazy"><h2>Your next move<br><em>starts here.</em></h2><a class="button" href="#battle-modes">Explore the battle modes</a></section>
+  </main>
+  <footer><div class="wrap footer-inner"><div class="brand"><img src="assets/logo.png" width="44" height="44" alt=""><span>Battlemon<small>An Android board game by ease-z.</small></span></div><div><a href="privacy/">Privacy Policy</a><a href="mailto:mark.prosoftphils@gmail.com">Contact &amp; support</a><span>© 2026 ease-z</span></div></div></footer>
+  <dialog id="screenshot-dialog" aria-labelledby="screenshot-caption"><div class="dialog-header"><p id="screenshot-caption"></p><button id="close-preview" aria-label="Close screenshot">Close</button></div><img id="screenshot-full" alt=""></dialog>
+</body>
+</html>
